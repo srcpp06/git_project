@@ -5,6 +5,7 @@ on:
     branches: [ main, develop, Git ]
   pull_request:
     branches: [ main, develop, Git ]
+  workflow_dispatch:
 
 jobs:
   test:
